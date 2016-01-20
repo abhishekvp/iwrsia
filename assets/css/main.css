@@ -1623,7 +1623,7 @@
 	}
 
 	strong, b {
-		font-weight: 300;
+		font-weight: 600;
 		color: #666;
 	}
 
@@ -2099,7 +2099,7 @@ input[type="submit"]:after,
 			font-weight: 600;
 			font-size: 1.1em;
 			line-height: 1.5em;
-			
+
 		}
 
 		#logo p {
@@ -2202,7 +2202,8 @@ input[type="submit"]:after,
 
 			#main > section.dark {
 				color: #ddd;
-				color: rgba(255, 255, 255, 0.75);
+				color: rgba(255, 255, 255, 0.85);
+				font-weight: 400;
 			}
 
 				#main > section.dark h2, #main > section.dark h3, #main > section.dark h4, #main > section.dark h5, #main > section.dark h6 {
@@ -2229,14 +2230,16 @@ input[type="submit"]:after,
 				background-position: center center;
 			}
 
-		
+
 			#main > section.one {
 				background-color: #5E42A6;
 				background-attachment: fixed;
-				background-image: url("images/intro.svg");
+				/*background-image: url("images/intro.svg");*/
+				background-image: url("images/top.jpg");
 				background-position: right top;
 				background-repeat: no-repeat;
-				background-size: 100% 100%;
+				/*background-size: 100% 100%;*/
+				background-size: 100% auto;
 				display: flex;
 				flex-direction: column;
 				justify-content: center;
@@ -2256,7 +2259,7 @@ input[type="submit"]:after,
 			#about-slide {
     z-index: -1; position:relative
 			}
-			
+
 			#main > section.three {
 				background-color: #ecf1f1;
 			display: flex;
@@ -2632,3 +2635,16 @@ input[type="submit"]:after,
 				}
 
 	}
+
+
+/* Shaunak */
+div.header-image{
+background-color: red;
+height:350px;
+margin-bottom:2em;
+overflow: hidden;
+}
+
+div#footer{
+background-image:url('images/foot.jpg');
+}
