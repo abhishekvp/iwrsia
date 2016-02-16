@@ -7,7 +7,7 @@ $('div#notice').slideDown(1000)
 $('span#close').click(
 
   function() {
-    //  $('div#notice').slideUp("slow")
+      $('div#notice').slideUp("slow")
     }
 
 )
